@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import requests
 from bs4 import BeautifulSoup
 import sys
@@ -43,3 +44,13 @@ elif download == "mp4" or download == "MP4":
     with youtube_dl.YoutubeDL({'format': 'bestaudio'}) as ydl:
         ydl.download([URL])
     print("下載完成")
+=======
+class Student(object):
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+
+student = Student("ok", 100)
+print(student.name, student.score)
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77

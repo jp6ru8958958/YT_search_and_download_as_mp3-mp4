@@ -12,6 +12,7 @@
     <session id="-86848899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="3" />
@@ -19,41 +20,71 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.opened" value="14" />
+=======
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="7" />
           <entry key="txt" value="1" />
+=======
+          <entry key="py" value="5" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="7" />
+=======
+          <entry key="Python" value="5" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
+<<<<<<< HEAD
           <entry key="py" value="3922" />
+=======
+          <entry key="py" value="587" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
+<<<<<<< HEAD
           <entry key="Python" value="3922" />
+=======
+          <entry key="Python" value="587" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
               <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -61,6 +92,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI_tkinter.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,6 +100,15 @@
               <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#42#63#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI_TEST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
               </folding>
             </state>
           </provider>
@@ -76,11 +117,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TEST.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="114">
               <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="133">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
             </state>
           </provider>
         </entry>
@@ -111,10 +157,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/GUI_TEST.py" />
         <option value="$PROJECT_DIR$/GUI_tkinter.py" />
         <option value="$PROJECT_DIR$/TEST.py" />
         <option value="$PROJECT_DIR$/downloader_TEST.py" />
+=======
+        <option value="$PROJECT_DIR$/TEST.py" />
+        <option value="$PROJECT_DIR$/GUI_TEST.py" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
       </list>
     </option>
   </component>
@@ -145,7 +196,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,6 +211,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +238,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.GUI_tkinter">
+=======
+  <component name="RunManager" selected="Python.GUI_TEST">
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
     <configuration name="GUI_TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubedownload" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="GUI_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubedownload" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +286,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
     <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubedownload" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,6 +334,7 @@
       <item itemvalue="Python.youtube_downtest" />
       <item itemvalue="Python.GUI_TEST" />
       <item itemvalue="Python.TEST" />
+<<<<<<< HEAD
       <item itemvalue="Python.GUI_tkinter" />
     </list>
     <recent_temporary>
@@ -277,6 +343,14 @@
         <item itemvalue="Python.youtube_downtest" />
         <item itemvalue="Python.TEST" />
         <item itemvalue="Python.GUI_TEST" />
+=======
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GUI_TEST" />
+        <item itemvalue="Python.TEST" />
+        <item itemvalue="Python.youtube_downtest" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +385,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.24845679" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287037" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37191358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,6 +402,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
     <layout-to-restore>
       <window_info content_ui="combo" x="1085" y="440" width="194" height="407" id="Project" order="0" type="SLIDING" weight="0.15421304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,6 +422,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+=======
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -373,6 +454,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/download.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -403,16 +485,40 @@
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#42#63#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/GUI_TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+>>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
           </folding>
         </state>
       </provider>
