@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b627851a-b133-4cae-a6a6-45ee7c66c464" name="Default Changelist" comment="" />
+    <list default="true" id="b627851a-b133-4cae-a6a6-45ee7c66c464" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_TEST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_tkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI_tkinter.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +73,41 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1182683167">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="youtube_downloader_with_beautifulsoup" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -76,6 +115,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="313">
               <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
 =======
@@ -88,12 +128,17 @@
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="209">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+>>>>>>> newbranch
             </state>
           </provider>
         </entry>
       </file>
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/GUI_tkinter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -110,18 +155,30 @@
                 <element signature="e#0#10#0" expanded="true" />
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+>>>>>>> newbranch
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TEST.py">
+        <entry file="file://$PROJECT_DIR$/GUI_pyqt5.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="114">
               <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+=======
+            <state relative-caret-position="19">
+              <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+>>>>>>> newbranch
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
 =======
             <state relative-caret-position="133">
@@ -129,6 +186,16 @@
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI_tkinter.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TEST.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,18 +221,25 @@
       <replace>button_mp3</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/GUI_TEST.py" />
+        <option value="$PROJECT_DIR$/downloader_TEST.py" />
         <option value="$PROJECT_DIR$/GUI_tkinter.py" />
         <option value="$PROJECT_DIR$/TEST.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/downloader_TEST.py" />
 =======
         <option value="$PROJECT_DIR$/TEST.py" />
         <option value="$PROJECT_DIR$/GUI_TEST.py" />
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
+=======
+>>>>>>> newbranch
       </list>
     </option>
   </component>
@@ -197,29 +271,44 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
+=======
+>>>>>>> newbranch
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="youtubedownload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtubedownload" type="462c0819:PsiDirectoryNode" />
+              <item name="youtube_downloader_with_beautifulsoup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube_downloader_with_beautifulsoup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <pane id="Scope" />
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
+=======
+      <pane id="Scope" />
+>>>>>>> newbranch
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/桌面/youtube_downloader" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="youtubedownload" sdk-home="C:\Users\jp6ru\PycharmProjects\untitled\venv\Scripts\python.exe">
+        <option name="mySdkHome" value="C:\Users\jp6ru\PycharmProjects\untitled\venv\Scripts\python.exe" />
+        <option name="myModuleName" value="youtubedownload" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -239,10 +328,14 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.GUI_tkinter">
 =======
   <component name="RunManager" selected="Python.GUI_TEST">
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
+=======
+  <component name="RunManager" selected="Python.youtube_downtest">
+>>>>>>> newbranch
     <configuration name="GUI_TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubedownload" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,7 +402,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="youtube_downtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="youtube_downtest" type="PythonConfigurationType" factoryName="Python">
       <module name="youtubedownload" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,7 +433,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.GUI_tkinter" />
-        <item itemvalue="Python.youtube_downtest" />
         <item itemvalue="Python.TEST" />
         <item itemvalue="Python.GUI_TEST" />
 =======
@@ -381,16 +473,21 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1085" y="440" width="194" height="407" id="Project" order="0" type="SLIDING" weight="0.15421304" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24960254" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3298887" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.24845679" />
 =======
       <window_info anchor="bottom" id="Run" order="2" weight="0.3287037" />
 >>>>>>> b4fd5fcbe62d9c0c62386b832ae88f1fa6f58f77
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37191358" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24729522" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3709428" />
+>>>>>>> newbranch
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
@@ -455,31 +552,39 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/download.txt">
+=======
+    <entry file="file://$PROJECT_DIR$/download.txt" />
+    <entry file="file://$PROJECT_DIR$/GUI_TEST.py" />
+    <entry file="file://$PROJECT_DIR$/downloader_TEST.py">
+>>>>>>> newbranch
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="209">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI_TEST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEST.py">
+    <entry file="file://$PROJECT_DIR$/GUI_pyqt5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="19">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI_tkinter.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
@@ -522,6 +627,12 @@
           </folding>
         </state>
       </provider>
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> newbranch
     </entry>
   </component>
   <component name="masterDetails">
