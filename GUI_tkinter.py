@@ -15,7 +15,7 @@ def button1_click():
 
 def button2_click():
     key_word = main_entry.get()
-    show_label1["text"]=key_word
+    show_label1["text"]='影片名稱:'+key_word
     show_label2["text"]='影片觀看次數:'+key_word
 
 def button3_click():
