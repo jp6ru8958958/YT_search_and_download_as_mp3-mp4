@@ -2,6 +2,7 @@ import requests                         # 用來取得網頁原始碼
 from bs4 import BeautifulSoup           # 用來對取得的網頁原始碼做解析,找出需要的內容
 import youtube_dl                       # 下載器
 # 函式庫皆從github上找到官方使用說明
+#https://www.youtube.com/results?sp=CAM%253D&search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1
 
 URL = ""
 url = "https://www.youtube.com/results?sp=CAM%253D&search_query=" + str(input("輸入關鍵字:")) # youtube的搜尋規則為(搜尋方式)+(關鍵字),這裡使用依觀看次數來搜尋的方式
@@ -12,7 +13,6 @@ soup = BeautifulSoup(content, "html.parser")
 user_check = '0'
 
 for all_video in soup.select(".yt-lockup-video"):   #爬蟲區請搭配網頁原始碼服用
-#https://www.youtube.com/results?sp=CAM%253D&search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1
 
     if user_check == '0':
         video_name = all_video.select("a[rel='spf-prefetch']")          # rel="spf-prefetch"用來選取a標籤下的東西
