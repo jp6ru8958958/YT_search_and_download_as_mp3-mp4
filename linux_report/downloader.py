@@ -12,6 +12,7 @@ soup = BeautifulSoup(content, "html.parser")
 user_check = '0'
 
 for all_video in soup.select(".yt-lockup-video"):   #爬蟲區請搭配網頁原始碼服用
+#https://www.youtube.com/results?sp=CAM%253D&search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1 + 
 
     if user_check == '0':
         video_name = all_video.select("a[rel='spf-prefetch']")          # rel="spf-prefetch"用來選取a標籤下的東西
