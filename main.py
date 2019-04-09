@@ -6,7 +6,7 @@ import youtube_dl
 
 main_window = tk.Tk()
 main_window.title('YOUTUBE_DOWNLOADER')
-main_window.geometry('550x200')
+main_window.geometry('450x200')
 
 features=['video',0,'key_word']
 
@@ -47,13 +47,13 @@ def button2_click():
 #TEXT ENTRY=============================================================================================================
 
 entry_read=StringVar()
-main_entry = tk.Entry(main_window,width=25,bd=3,textvariable=entry_read)
+main_entry = tk.Entry(main_window,width=25,bd=4,textvariable=entry_read)
 
 #BUTTON=================================================================================================================
 
-button_one = tk.Button(main_window,text="MP3下載",width=10,height=2,command=button1_click)
-button_two = tk.Button(main_window,text="MP4下載",width=10,height=2,command=button2_click)
-button_three = tk.Button(main_window,text="NEXT",width=5,height=2,command=button3_click)
+button_MP3 = tk.Button(main_window,text="MP3下載",width=10,height=2,command=button1_click)
+button_MP4 = tk.Button(main_window,text="MP4下載",width=10,height=2,command=button2_click)
+button_NEXT = tk.Button(main_window,text="NEXT",width=5,height=2,command=button3_click)
 
 #LABEL==================================================================================================================
 
@@ -65,11 +65,11 @@ main_label["text"] = "輸入關鍵字"
 
 #PACK===================================================================
 
-main_entry.place(x=200, y=20, anchor='nw')
-main_label.place(x=130,y=20,anchor='nw')
-show_label1.place(x=10, y=70, anchor='nw')
-show_label2.place(x=10, y=100, anchor='nw')
-button_one.place(x=200, y=150, anchor='nw')
-button_two.place(x=300, y=150, anchor='nw')
-button_three.place(x=400, y=25, anchor='nw')
+main_entry.place(x=120, y=20, anchor='nw')
+main_label.place(x=50,y=25, anchor='nw')
+show_label1.place(x=30, y=70, anchor='nw')
+show_label2.place(x=30, y=100, anchor='nw')
+button_MP3.place(x=100, y=125, anchor='nw')
+button_MP4.place(x=220, y=125, anchor='nw')
+button_NEXT.place(x=325, y=20, anchor='nw')
 main_window.mainloop()
