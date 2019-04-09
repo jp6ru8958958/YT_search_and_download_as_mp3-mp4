@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\jp6ru\\Desktop\\youtube_downloader_with_beautifulsoup'],
+             pathex=['/home/jp6ru8958958/Documents/Programs/Python/YT_search_and_download_as_mp3-mp4'],
              binaries=[],
              datas=[],
              hiddenimports=[],
