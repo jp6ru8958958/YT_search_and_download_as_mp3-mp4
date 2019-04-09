@@ -6,7 +6,7 @@ import youtube_dl
 
 main_window = tk.Tk()
 main_window.title('YOUTUBE_DOWNLOADER')
-main_window.geometry('450x200')
+main_window.geometry('420x200')
 
 features=['video',0,'key_word']
 
