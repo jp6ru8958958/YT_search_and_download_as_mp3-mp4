@@ -9,6 +9,9 @@ pip install requests beautifulsoup4 youtube_dl
 ```
 git clone https://github.com/jp6ru8958958/YT_search_and_download_as_mp3-mp4.git
 ```
+- [ ] *WARNING:
+I'm rewriting this program, 
+please use "mainbefore.py" file.**
 ---
 How can it do?
 ---
