@@ -16,7 +16,7 @@ def button3_click():
     if features[2] != key_word:
         features[1] = 0
     features[2] = key_word
-    url = "https://www.youtube.com/results?sp=CAM%253D&search_query="+key_word
+    url = "https://www.youtube.com/results?sp=CAM%253D&search_query=" + key_word
     request = requests.get(url)
     content = request.content
     soup = BeautifulSoup(content, "html.parser")
@@ -27,10 +27,10 @@ def button3_click():
     features[0] = ("https://www.youtube.com{}".format(video_name[0].get("href")))
     features[1] += 1
 
-    show_label1["text"] = '影片名稱:'+video_name[0].get("title")
+    show_label1["text"] = '影片名稱:' + video_name[0].get("title")
     show_label2["text"] = see
 
-def button1_click():
+def download_mp4_button():
     ydl_opts = {'format': 'bestaudio', 'postprocessors':
         [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': '320'}]
     }
@@ -38,7 +38,7 @@ def button1_click():
         ydl.download([features[0]])
     print("mp3下載完成")
 
-def button2_click():
+def download_mp3_button():
     with youtube_dl.YoutubeDL({'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]'}) as ydl:
         ydl.download([features[0]])
     print("mp4下載完成")
@@ -46,12 +46,12 @@ def button2_click():
 
 #TEXT ENTRY=============================================================================================================
 entry_read=StringVar()
-main_entry = tk.Entry(main_window,width=25,bd=4,textvariable=entry_read)
+main_entry = tk.Entry(main_window,width=25, bd=4, textvariable=entry_read)
 
 #BUTTON=================================================================================================================
-button_MP3 = tk.Button(main_window, text="MP3下載",width=10,height=2, command=button1_click)
-button_MP4 = tk.Button(main_window, text="MP4下載",width=10,height=2, command=button2_click)
-button_NEXT = tk.Button(main_window, text="NEXT",width=5,height=2, command=button3_click)
+button_MP3 = tk.Button(main_window, text="MP3下載",width=10, height=2, command=download_mp3_button)
+button_MP4 = tk.Button(main_window, text="MP4下載",width=10, height=2, command=download_mp4_button)
+button_NEXT = tk.Button(main_window, text="NEXT",width=5, height=2, command=button3_click)
 
 #LABEL==================================================================================================================
 show_label1=Label(main_window)
