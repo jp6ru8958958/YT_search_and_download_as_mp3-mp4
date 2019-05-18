@@ -26,6 +26,12 @@ class Video_Info:
             self.video_viewtimes.append(data[1])
             self.video_link.append("https://www.youtube.com" + video_name_soup[get_info]['href'])
 
+    def delete_info(self):
+        self.video_name = []
+        self.video_link = []
+        self.video_viewtimes = []
+        self.video_posttime = []
+
     def print_info(self):
         print(len(self.video_name))
         print(self.video_name)
@@ -36,7 +42,8 @@ class Video_Info:
         print(len(self.video_link))
         print(self.video_link)
 
-def open_browser(self, video_url):
+
+def open_browser(video_url):
     webbrowser.open_new_tab(video_url)
 
 
@@ -51,7 +58,6 @@ def Mp4_download(video_url):
     }
     with youtube_dl.YoutubeDL(mp4_opts) as ydl:
         ydl.download(video_url)
-    print("mp3下載完成")
 
 
 def Mp3_download(video_url):
@@ -60,13 +66,15 @@ def Mp3_download(video_url):
     }
     with youtube_dl.YoutubeDL(mp3_opts) as ydl:
         ydl.download(video_url)
-    print("mp4下載完成")
 
 
 def main():
     Video_list = Video_Info(str(input("輸入關鍵字：")))
     Video_list.get_search_info()
     Video_list.print_info()
+    Video_list.delete_info()
+    Video_list.print_info()
+
 
 if __name__ == "__main__":
     main()
