@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 import youtube_dl
 import webbrowser
 
-url = "https://www.youtube.com/results?search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1&sp=CAM%253D"
+url = "https://www.youtube.com/results?search_query=" + str(input("輸入關鍵字") + "&sp=CAMSAhAB")
+
 HTML = requests.get(url)
 soup = BeautifulSoup(HTML.text, "html.parser")
 video_name_soup = soup.select("h3 a")
