@@ -5,15 +5,33 @@ from bs4 import BeautifulSoup
 import youtube_dl
 import webbrowser
 
-
-url = "https://www.youtube.com/results?search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1"
+url = "https://www.youtube.com/results?search_query=%E6%A0%B9%E6%9C%AC%E5%B0%B1&sp=CAM%253D"
 HTML = requests.get(url)
 soup = BeautifulSoup(HTML.text, "html.parser")
-video_name = soup.select("h3 a")
-for print_info in range(20):
-    print(video_name[print_info].text)
-    print(soup.select(".yt-lockup-video")[print_info-1].select(".yt-lockup-meta-info"))
-    print("https://www.youtube.com" + video_name[print_info]['href'])
+video_name_soup = soup.select("h3 a")
 
+video_name = []
+video_link = []
+video_viewtimes = []
+video_posttime = []
+
+for get_info in range(20):
+    video_name.append(video_name_soup[get_info].text)
+    data = soup.select(".yt-lockup-meta-info")
+    data = data[get_info].get_text("#").split("#")
+    video_posttime.append(data[0])
+    video_viewtimes.append(data[1])
+    video_link.append("https://www.youtube.com" + video_name_soup[get_info]['href'])
+#    print("https://www.youtube.com" + video_name[get_info]['href'])
+#    video_link[get_info] = "https://www.youtube.com" + video_name[get_info]['href']
+
+print(len(video_name))
+print(video_name)
+print(len(video_posttime))
+print(video_posttime)
+print(len(video_viewtimes))
+print(video_viewtimes)
+print(len(video_link))
+print(video_link)
 
 #webbrowser.open_new_tab("https://www.youtube.com" + video_name[4]['href'])
