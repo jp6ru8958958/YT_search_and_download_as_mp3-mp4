@@ -5,6 +5,29 @@ from bs4 import BeautifulSoup
 import youtube_dl
 import webbrowser
 
+class tkinter_setting():
+    def __init__(self):
+        self.main_window = tk.Tk()
+        self.main_window.title('YOUTUBE_Downloader')
+        self.main_window.geometry('420x200')
+        self.entry_read = StringVar()
+        self.main_entry = tk.Entry(self.main_window, width=25, bd=4, textvariable=self.entry_read)
+        self.button_MP3 = tk.Button(self.main_window, text="MP3下載", width=10, height=2, command=Mp3_download)
+        self.button_MP4 = tk.Button(self.main_window, text="MP4下載", width=10, height=2, command=Mp4_download)
+        self.button_NEXT = tk.Button(self.main_window, text="NEXT", width=5, height=2, command=Mp4_download)
+        self.show_label1 = Label(self.main_window)
+        self.show_label2 = Label(self.main_window)
+        self.main_label = Label(self.main_window)
+        self.main_label["text"] = "輸入關鍵字"
+        self.main_entry.place(x=120, y=20, anchor='nw')
+        self.main_label.place(x=50, y=25, anchor='nw')
+        self.show_label1.place(x=30, y=70, anchor='nw')
+        self.show_label2.place(x=30, y=100, anchor='nw')
+        self.button_MP3.place(x=100, y=125, anchor='nw')
+        self.button_MP4.place(x=220, y=125, anchor='nw')
+        self.button_NEXT.place(x=325, y=20, anchor='nw')
+        self.main_window.mainloop()
+
 
 class Video_Info:
     def __init__(self, key_word):
@@ -58,6 +81,7 @@ def Mp4_download(video_url):
     }
     with youtube_dl.YoutubeDL(mp4_opts) as ydl:
         ydl.download(video_url)
+    print("MP4 file have downloaded")
 
 
 def Mp3_download(video_url):
@@ -66,14 +90,16 @@ def Mp3_download(video_url):
     }
     with youtube_dl.YoutubeDL(mp3_opts) as ydl:
         ydl.download(video_url)
+    print("MP3 file have downloaded")
 
 
 def main():
+    tkinter_setting()
     Video_list = Video_Info(str(input("輸入關鍵字：")))
     Video_list.get_search_info()
     Video_list.print_info()
     Video_list.delete_info()
-    Video_list.print_info()
+#    Video_list.print_info()
 
 
 if __name__ == "__main__":
