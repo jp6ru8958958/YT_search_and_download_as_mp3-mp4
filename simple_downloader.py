@@ -11,7 +11,7 @@ def Mp3_download(video_url):
         }]
     }
     with youtube_dl.YoutubeDL(mp4_opts) as ydl:
-        ydl.download(video_url)
+        ydl.download([video_url])
     print("MP4 file have downloaded")
 
 
@@ -20,12 +20,12 @@ def Mp4_download(video_url):
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]'
     }
     with youtube_dl.YoutubeDL(mp3_opts) as ydl:
-        ydl.download(video_url)
+        ydl.download([video_url])
     print("MP3 file have downloaded")
 
 
 def main():
-    video_url = ["https://www.youtube.com/watch?v=bxbXUMy4kok"]
+    video_url = "https://www.youtube.com/watch?v=bxbXUMy4kok"
     user_input = input("MP3/MP4")
     if user_input == "MP3" or "Mp3" or "mp3" or "mP3":
         Mp3_download(video_url)
