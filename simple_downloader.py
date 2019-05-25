@@ -24,7 +24,7 @@ def Mp4_download(video_url):
 
 
 def main():
-    video_url = "https://www.youtube.com/watch?v=bxbXUMy4kok"
+    video_url = input("Post video link")
     user_input = input("MP3/MP4")
     if user_input == "MP3" or "Mp3" or "mp3" or "mP3":
         Mp3_download(video_url)
